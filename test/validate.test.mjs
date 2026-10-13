@@ -48,6 +48,35 @@ test('all 56 current candidates and legal notices validate', async () => {
   assert.ok(result.largest.combined < 18000);
 });
 
+test('synthetic evaluation data covers every candidate without claiming execution', async () => {
+  const catalog = JSON.parse(await readFile(join(repository, 'catalog.json'), 'utf8'));
+  const evaluation = JSON.parse(await readFile(join(repository, 'evals/workflow-cases.json'), 'utf8'));
+  assert.equal(evaluation.schemaVersion, 1);
+  assert.equal(evaluation.executionStatus, 'not_run');
+  assert.equal(evaluation.cases.length, catalog.skills.length);
+  assert.deepEqual(new Set(evaluation.cases.map((item) => item.slug)), new Set(catalog.skills.map((item) => item.slug)));
+  for (const item of evaluation.cases) {
+    assert.equal(typeof item.request, 'string');
+    assert.ok(item.request.length > 0);
+    assert.equal(typeof item.inputs, 'object');
+    assert.ok(item.expectations.length >= 3);
+    assert.ok(item.expectations.every((value) => typeof value === 'string' && value.length > 0));
+  }
+});
+
+test('published JSON schema category and path rules describe the validator contract', async () => {
+  const schema = JSON.parse(await readFile(join(repository, 'schema/catalog.schema.json'), 'utf8'));
+  const catalog = JSON.parse(await readFile(join(repository, 'catalog.json'), 'utf8'));
+  assert.equal(schema.properties.schemaVersion.const, catalog.schemaVersion);
+  assert.equal(schema.properties.apps.maxItems, 0);
+  assert.deepEqual(new Set(schema.$defs.skill.properties.category.enum), new Set(catalog.skills.map((item) => item.category)));
+  const pathPattern = new RegExp(schema.$defs.path.pattern, 'u');
+  assert.ok(pathPattern.test('references/example.md'));
+  for (const path of ['/absolute', 'C:/absolute', 'references\\example.md', 'references/%2e%2e/file.md']) {
+    assert.equal(pathPattern.test(path), false);
+  }
+});
+
 test('valid original synthetic bundle validates', async () => fixture(async ({ root }) => {
   assert.equal((await validateCatalog(root)).skills, 1);
 }));
@@ -144,7 +173,7 @@ test('license index drift blocks distribution', async () => fixture(async ({ roo
   await assert.rejects(validateCatalog(root), /license\/author mismatch/);
 }));
 
-test('source and adapted hash records require complete exact-path coverage', async () => fixture(async ({ root, catalog, license, save }) => {
+test('source and adapted hash records require complete exact-path coverage', async () => fixture(async ({ root, catalog, save }) => {
   const skill = catalog.skills[0];
   skill.origin = 'community';
   skill.source = { repository: 'https://github.com/example/source', commit: 'a'.repeat(40),

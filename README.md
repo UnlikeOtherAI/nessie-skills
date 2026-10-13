@@ -70,6 +70,10 @@ Meaning and prompt-injection judgments remain with Nessie's authorized review
 service. See [SECURITY.md](SECURITY.md) for the limits and safe CI protocol, and
 [CONTRIBUTING.md](CONTRIBUTING.md) to propose a workflow.
 
+The [synthetic evaluation cases](evals/README.md) define useful behavioral checks
+for all 56 candidates, including missing access and misleading source material.
+They have not been run against a model and contain no fabricated results.
+
 The [apps directory](apps/README.md) reserves future content-only MCP app
 manifests. There are **zero app manifests** in this version. The public importer
 accepts skills only, and no executable server source or credentials live here.
