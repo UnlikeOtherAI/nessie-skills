@@ -1,0 +1,12 @@
+{
+  "name": "@unlikeotherai/nessie-skills",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Public source bundles and structural contribution checks for Nessie skills.",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test test/validate.test.mjs"
+  }
+}

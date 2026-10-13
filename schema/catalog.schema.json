@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/UnlikeOtherAI/nessie-skills/schema/catalog.schema.json",
+  "title": "Nessie public skill source catalog, version 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "skills", "apps"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "skills": { "type": "array", "minItems": 1, "maxItems": 1000, "items": { "$ref": "#/$defs/skill" } },
+    "apps": { "type": "array", "maxItems": 0, "description": "Reserved. Public app import is not supported in version 1." }
+  },
+  "$defs": {
+    "path": {
+      "type": "string", "minLength": 1, "maxLength": 240,
+      "pattern": "^(?!/)(?!.*[\\\\:%?#\\u0000-\\u0020\\u007f])[^/]+(?:/[^/]+)*$",
+      "description": "A canonical relative POSIX path. The validator also rejects dot segments, reserved device names, symlinks and aliases."
+    },
+    "hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "hashes": {
+      "type": "object", "propertyNames": { "$ref": "#/$defs/path" },
+      "additionalProperties": { "$ref": "#/$defs/hash" }
+    },
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["repository", "commit", "paths", "authors", "license", "notices", "changes"],
+      "properties": {
+        "repository": { "type": "string", "format": "uri", "pattern": "^https://", "maxLength": 1000 },
+        "commit": { "type": "string", "pattern": "^[a-f0-9]{40}$" },
+        "paths": { "type": "array", "minItems": 1, "maxItems": 50, "uniqueItems": true, "items": { "$ref": "#/$defs/path" } },
+        "authors": { "type": "array", "minItems": 1, "maxItems": 50, "uniqueItems": true, "items": { "type": "string", "minLength": 1, "maxLength": 200 } },
+        "license": { "enum": ["MIT", "Apache-2.0"] },
+        "notices": { "type": "array", "minItems": 1, "maxItems": 50, "uniqueItems": true, "items": { "$ref": "#/$defs/path" } },
+        "changes": { "type": "string", "minLength": 1, "maxLength": 2500 },
+        "sourceHashes": { "$ref": "#/$defs/hashes" },
+        "adaptedHashes": { "$ref": "#/$defs/hashes" }
+      }
+    },
+    "document": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "file", "sha256"],
+      "properties": {
+        "path": { "$ref": "#/$defs/path" },
+        "file": { "$ref": "#/$defs/path" },
+        "sha256": { "$ref": "#/$defs/hash" }
+      }
+    },
+    "skill": {
+      "type": "object", "additionalProperties": false,
+      "required": ["slug", "name", "description", "category", "origin", "source", "documents"],
+      "properties": {
+        "slug": { "type": "string", "maxLength": 80, "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "name": { "type": "string", "minLength": 1, "maxLength": 150 },
+        "description": { "type": "string", "minLength": 1, "maxLength": 600 },
+        "category": { "enum": [
+          "Everyday work and planning", "Brand and audience", "SEO, websites and content",
+          "Social media and video", "Email marketing", "Campaigns, advertising and partnerships",
+          "Reporting and launches", "Engineering"
+        ] },
+        "origin": { "enum": ["community", "nessie"] },
+        "source": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/source" }] },
+        "documents": { "type": "array", "minItems": 1, "maxItems": 20, "items": { "$ref": "#/$defs/document" } }
+      },
+      "allOf": [{
+        "if": { "properties": { "origin": { "const": "nessie" } } },
+        "then": { "properties": { "source": { "type": "null" } } },
+        "else": { "properties": { "source": { "$ref": "#/$defs/source" } } }
+      }]
+    }
+  }
+}
