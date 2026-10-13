@@ -1,0 +1,2035 @@
+{
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "slug": "unslop",
+      "name": "Unslop",
+      "description": "Make writing clear, specific, and natural while preserving its meaning, useful detail, uncertainty, and the person's voice.",
+      "category": "Everyday work and planning",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/cursor/plugins",
+        "commit": "dbf49813a39c1a5389c5e28cb8e4c1c2379e2454",
+        "paths": [
+          "pstack/skills/unslop/SKILL.md"
+        ],
+        "authors": [
+          "Lauren Tan"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/pstack-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "pstack/skills/unslop/SKILL.md": "ccab208e315ce05e2fab8eeee2f7879f1289b5c6844840b2d307adf31c79144f"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "4b121e3426aa42e474139fa8981fa9368e61dbc5b28736ebf7a10cc3ac72c769"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/unslop/SKILL.md",
+          "sha256": "4b121e3426aa42e474139fa8981fa9368e61dbc5b28736ebf7a10cc3ac72c769"
+        }
+      ]
+    },
+    {
+      "slug": "wait-what",
+      "name": "Wait What?",
+      "description": "Restate an unclear answer with the context and plain language the reader needs to understand it.",
+      "category": "Everyday work and planning",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/productivity/wait-what/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/productivity/wait-what/SKILL.md": "d961bb37defd975c539427edb8f450cdbccdcdd552e213c1ece46676a7970905"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "a772ee6a9107a8c7506a7af8e4dbf1ee65faf5feeff6ece07e1c2caf16f6ece4"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/wait-what/SKILL.md",
+          "sha256": "a772ee6a9107a8c7506a7af8e4dbf1ee65faf5feeff6ece07e1c2caf16f6ece4"
+        }
+      ]
+    },
+    {
+      "slug": "grill-with-docs",
+      "name": "Grill / Grill with Docs",
+      "description": "Stress-test a plan by resolving the assumptions and decisions that could change what gets built or done.",
+      "category": "Everyday work and planning",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/productivity/grilling/SKILL.md",
+          "skills/engineering/grill-with-docs/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/productivity/grilling/SKILL.md": "befdff1e27a1dfe2a294d5871169ac1afe16d983911daa4f32627514a48c1e15",
+          "skills/engineering/grill-with-docs/SKILL.md": "7de372c13488f1ee96cc11cd8907b56b6809cc93eef776eeddd37de6b6cbe3fe"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "05109f59997c853693e20081e8c91b92a8524fd3fc72628af2abf06b5625fb31"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/grill-with-docs/SKILL.md",
+          "sha256": "05109f59997c853693e20081e8c91b92a8524fd3fc72628af2abf06b5625fb31"
+        }
+      ]
+    },
+    {
+      "slug": "show-me-your-work",
+      "name": "Show Me Your Work",
+      "description": "Keep a concise, reviewable record of important decisions and verification in long or unattended work.",
+      "category": "Everyday work and planning",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/cursor/plugins",
+        "commit": "dbf49813a39c1a5389c5e28cb8e4c1c2379e2454",
+        "paths": [
+          "pstack/skills/show-me-your-work/SKILL.md"
+        ],
+        "authors": [
+          "Lauren Tan"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/pstack-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "pstack/skills/show-me-your-work/SKILL.md": "bcff5f7f9fd23f92c12b251f9cd6b947e9485e1055cfacb6fdd9cae0789d7550"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "5a43dbbf8973804abce76dcfec0d0133a54e9169a392b58ea98b0bf203c83ce9"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/show-me-your-work/SKILL.md",
+          "sha256": "5a43dbbf8973804abce76dcfec0d0133a54e9169a392b58ea98b0bf203c83ce9"
+        }
+      ]
+    },
+    {
+      "slug": "wizard",
+      "name": "Wizard",
+      "description": "Guide a person through a procedure that needs human access or judgment, with clear steps and observable completion checks.",
+      "category": "Everyday work and planning",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/engineering/wizard/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/engineering/wizard/SKILL.md": "bdf31d48211ea559878f95a4f344aeabf8d85897488ba564382bab0b000daac1"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "009ea9fd8e6105c1ddaca6856dd2f9f870d526d9963ca27e792eb11fed625b6a"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/wizard/SKILL.md",
+          "sha256": "009ea9fd8e6105c1ddaca6856dd2f9f870d526d9963ca27e792eb11fed625b6a"
+        }
+      ]
+    },
+    {
+      "slug": "research",
+      "name": "Research",
+      "description": "Answer a defined question with credible primary evidence, separating observed facts, inferences, and unresolved gaps.",
+      "category": "Everyday work and planning",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/engineering/research/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/engineering/research/SKILL.md": "985569f15739c713d6784887c3d186d4ef9ac85bec5ad9c068d25bf0739928e4"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "567d574061f75f45ee79222f396af22059b8c1f197aacb164ba4fd58243f5a94"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/research/SKILL.md",
+          "sha256": "567d574061f75f45ee79222f396af22059b8c1f197aacb164ba4fd58243f5a94"
+        }
+      ]
+    },
+    {
+      "slug": "handoff",
+      "name": "Handoff",
+      "description": "Give another person or agent enough verified context to continue work without reconstructing the whole conversation.",
+      "category": "Everyday work and planning",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/productivity/handoff/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/productivity/handoff/SKILL.md": "4cbb043950dad2ffd3662ff1a5a0b51ae676004b5cae10e3787e8ee7a4ee69d3"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "2e3c3934d13b7a53dfb352759640ee5c1db417152ffa6978bcb52a9dd83669af"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/handoff/SKILL.md",
+          "sha256": "2e3c3934d13b7a53dfb352759640ee5c1db417152ffa6978bcb52a9dd83669af"
+        }
+      ]
+    },
+    {
+      "slug": "discovery-questionnaire",
+      "name": "Discovery Questionnaire",
+      "description": "Gather facts and decisions from the person who has them with a focused questionnaire they can answer asynchronously or in a meeting.",
+      "category": "Everyday work and planning",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/productivity/to-questionnaire/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/productivity/to-questionnaire/SKILL.md": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "129ee003d9951d787b364e34499714e2abce56be720044f04476809359041445"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/discovery-questionnaire/SKILL.md",
+          "sha256": "129ee003d9951d787b364e34499714e2abce56be720044f04476809359041445"
+        }
+      ]
+    },
+    {
+      "slug": "clear-documentation",
+      "name": "Clear Documentation",
+      "description": "Write documents that help the intended reader understand a concept, complete a task, or find a precise fact.",
+      "category": "Everyday work and planning",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/cursor/plugins",
+        "commit": "dbf49813a39c1a5389c5e28cb8e4c1c2379e2454",
+        "paths": [
+          "pstack/skills/technical-writing/SKILL.md"
+        ],
+        "authors": [
+          "Lauren Tan"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/pstack-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "pstack/skills/technical-writing/SKILL.md": "61fe9c424a798ebf36ad94941f87be049cb8827bdf86d21474a0dde37b513c43"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "d430721f04b7892ad30de3769014852f8b452c951b931e277af8281ee59fbcb7"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/clear-documentation/SKILL.md",
+          "sha256": "d430721f04b7892ad30de3769014852f8b452c951b931e277af8281ee59fbcb7"
+        }
+      ]
+    },
+    {
+      "slug": "domain-modeling",
+      "name": "Domain Modeling",
+      "description": "Build a shared vocabulary for a team's real concepts, relationships, and business rules.",
+      "category": "Everyday work and planning",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/engineering/domain-modeling/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/engineering/domain-modeling/SKILL.md": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "efc3672aca989ba57e97548e0b80c6b70c91eabf2b5cb0aaac5a6a2f60ab0fba"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/domain-modeling/SKILL.md",
+          "sha256": "efc3672aca989ba57e97548e0b80c6b70c91eabf2b5cb0aaac5a6a2f60ab0fba"
+        }
+      ]
+    },
+    {
+      "slug": "wayfinder",
+      "name": "Wayfinder",
+      "description": "Plan a large effort by mapping the decisions and dependencies that must be settled before execution is clear.",
+      "category": "Everyday work and planning",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/engineering/wayfinder/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/engineering/wayfinder/SKILL.md": "9be7b478c389605a24517d27752f278933588da97a1b5921b165f455edf4c5b7"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "f9ac032f910bec1f7544f499f0bef9e78a4284951fc54157dceaaaa6c288236d"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/wayfinder/SKILL.md",
+          "sha256": "f9ac032f910bec1f7544f499f0bef9e78a4284951fc54157dceaaaa6c288236d"
+        }
+      ]
+    },
+    {
+      "slug": "arena",
+      "name": "Arena",
+      "description": "Compare a bounded set of independent approaches and produce one coherent result from their strongest verified ideas.",
+      "category": "Everyday work and planning",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/cursor/plugins",
+        "commit": "dbf49813a39c1a5389c5e28cb8e4c1c2379e2454",
+        "paths": [
+          "pstack/skills/arena/SKILL.md"
+        ],
+        "authors": [
+          "Lauren Tan"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/pstack-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "pstack/skills/arena/SKILL.md": "f15524f216c1c63804b89edb4ff8e53bb21a7b8ed367368dedeb9468eeec6a92"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "1a7ed6808ab3b90c96efcd4152b1725d35ba9be3fb518416c2a1d2f200b24b87"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/arena/SKILL.md",
+          "sha256": "1a7ed6808ab3b90c96efcd4152b1725d35ba9be3fb518416c2a1d2f200b24b87"
+        }
+      ]
+    },
+    {
+      "slug": "prototype",
+      "name": "Prototype",
+      "description": "Create a disposable example that helps a person answer a specific design or behavior question before committing to production work.",
+      "category": "Everyday work and planning",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/engineering/prototype/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/engineering/prototype/SKILL.md": "714de632d116bb73f65cdb5a882db15b9369a6713b9a47c0fad827848f0bfbe3"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "1cd6b20646b69a987222195c957108d3494685d1d8c442ca6837406f22a685fa"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/prototype/SKILL.md",
+          "sha256": "1cd6b20646b69a987222195c957108d3494685d1d8c442ca6837406f22a685fa"
+        }
+      ]
+    },
+    {
+      "slug": "writing-for-agents",
+      "name": "Writing for Agents",
+      "description": "Write instructions with a clear goal, bounded actions, relevant context, and observable completion criteria.",
+      "category": "Everyday work and planning",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/productivity/writing-for-agents/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/productivity/writing-for-agents/SKILL.md": "551adca942227b44192edba88acd4e8db911f0121ce58ad16944ccf6a896a74a"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "5c07fbc27a835a062922358c5843404d5c313935e7c5abf6e124cadcb32a67f7"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/writing-for-agents/SKILL.md",
+          "sha256": "5c07fbc27a835a062922358c5843404d5c313935e7c5abf6e124cadcb32a67f7"
+        }
+      ]
+    },
+    {
+      "slug": "product-positioning",
+      "name": "Product Positioning",
+      "description": "Clarify whom a product serves, the alternatives those people use, and the differences the business can defend today.",
+      "category": "Brand and audience",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "launch/research/positioning-mapper/SKILL.md",
+          "narrative/trace/positioning-truth-tracer/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "launch/research/positioning-mapper/SKILL.md": "8cd0d326bb88631b39bcedfb9b14527626650764db0c33d184f5febbb1feb155",
+          "narrative/trace/positioning-truth-tracer/SKILL.md": "8b9d67161c6bb008ba8c5a43d6cf7b651ea780824614ec716cfb2b2177373403"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "4b682032aed3c265e1562d8408f1cbaba6d666161e28b072f6d1a466e3ddb1ac"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/product-positioning/SKILL.md",
+          "sha256": "4b682032aed3c265e1562d8408f1cbaba6d666161e28b072f6d1a466e3ddb1ac"
+        }
+      ]
+    },
+    {
+      "slug": "messaging-framework",
+      "name": "Messaging Framework",
+      "description": "Create a consistent core message, supporting value themes, and audience-specific proof from an approved product brief.",
+      "category": "Brand and audience",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "narrative/architect/message-system-architect/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "narrative/architect/message-system-architect/SKILL.md": "7510544ffb0b18b7ba49e66733338504536315a8bbb62956787b30a86329d3c8"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "8f81c06ebd365aa7c46190a1645cb1a44c7e2ba4c76d1b5355d8e8588b6520f9"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/messaging-framework/SKILL.md",
+          "sha256": "8f81c06ebd365aa7c46190a1645cb1a44c7e2ba4c76d1b5355d8e8588b6520f9"
+        }
+      ]
+    },
+    {
+      "slug": "brand-voice-and-naming",
+      "name": "Brand Voice and Naming",
+      "description": "Define a usable voice and consistent naming rules from a brand's own material and approved messages.",
+      "category": "Brand and audience",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "narrative/architect/brand-language-codifier/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "narrative/architect/brand-language-codifier/SKILL.md": "b85a647be4055aebb94a55f2332258d61061a248750917e49a1adcbdeea32578"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "3080c027ea15e672a3332b414a75d3b22f5fab8cbad7ca8b4936d7fc2f0c87a5"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/brand-voice-and-naming/SKILL.md",
+          "sha256": "3080c027ea15e672a3332b414a75d3b22f5fab8cbad7ca8b4936d7fc2f0c87a5"
+        }
+      ]
+    },
+    {
+      "slug": "audience-research",
+      "name": "Audience Research",
+      "description": "Map an audience's needs, behaviors, channels, and constraints using evidence rather than invented demographic personas.",
+      "category": "Brand and audience",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "influencer/scout/audience-mapper/SKILL.md",
+          "ad/research/audience-segment-builder/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "influencer/scout/audience-mapper/SKILL.md": "80840cb62bcd20aa51724a60d8d69ce04f92134812cd06343c6db4cb9719b998",
+          "ad/research/audience-segment-builder/SKILL.md": "2aa454645d5053e4b54b7c6c5a4c3fb54301629db8712c555673f49794bb22ac"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "440332c2b58e0393ca85b5c7706461171eb06e81397c682266c6a38eec7c48b1"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/audience-research/SKILL.md",
+          "sha256": "440332c2b58e0393ca85b5c7706461171eb06e81397c682266c6a38eec7c48b1"
+        }
+      ]
+    },
+    {
+      "slug": "keyword-and-search-results-research",
+      "name": "Keyword and Search Results Research",
+      "description": "Find search topics worth addressing by comparing current result patterns, audience intent, and trustworthy demand data.",
+      "category": "SEO, websites and content",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "seo-geo/survey/keyword-research/SKILL.md",
+          "seo-geo/survey/serp-analysis/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "seo-geo/survey/keyword-research/SKILL.md": "2b47555b8ce9f6a05499bc065e1cf41b9c558f039dc237efe07cee53a8c976b9",
+          "seo-geo/survey/serp-analysis/SKILL.md": "2b23cae5a675bdfe9872b6d21b68b6650b8edc9c8d3561c0423c2b6f097470c4"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "74e38aa4063ed00b43de7d458a024ff67b5f124ef2469c0f73724557fbe07767"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/keyword-and-search-results-research/SKILL.md",
+          "sha256": "74e38aa4063ed00b43de7d458a024ff67b5f124ef2469c0f73724557fbe07767"
+        }
+      ]
+    },
+    {
+      "slug": "content-gap-analysis",
+      "name": "Content Gap Analysis",
+      "description": "Find useful missing topics, formats, and journey stages by comparing the site's actual content with relevant alternatives.",
+      "category": "SEO, websites and content",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "seo-geo/survey/content-gap-analysis/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "seo-geo/survey/content-gap-analysis/SKILL.md": "af797cb4e690539a023be90890f1c7c3506bd8b6192e5fc74f8a77b22a7f5a97"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "df5d5ed947405ea17dd8fb2e9fd34f008fb0c62ed44a486bb7df526dbd1f4531"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/content-gap-analysis/SKILL.md",
+          "sha256": "df5d5ed947405ea17dd8fb2e9fd34f008fb0c62ed44a486bb7df526dbd1f4531"
+        }
+      ]
+    },
+    {
+      "slug": "competitor-analysis",
+      "name": "Competitor Analysis",
+      "description": "Compare real competitor behavior and content to identify supported differences and useful opportunities.",
+      "category": "SEO, websites and content",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "seo-geo/survey/competitor-analysis/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "seo-geo/survey/competitor-analysis/SKILL.md": "905922fb722baf1fb3d2046a4d13031cf1ab8d7e8e4dde8b89dcc7f67eea2245"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "d5bf8b4bc45256b892a1b444e936792683d9d1e063ef649a17ac646b5ac81b5e"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/competitor-analysis/SKILL.md",
+          "sha256": "d5bf8b4bc45256b892a1b444e936792683d9d1e063ef649a17ac646b5ac81b5e"
+        }
+      ]
+    },
+    {
+      "slug": "on-page-seo-review",
+      "name": "On-Page SEO Review",
+      "description": "Inspect an individual page and return a prioritized list of evidence-backed improvements to its content structure and page metadata.",
+      "category": "SEO, websites and content",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "seo-geo/tune/on-page-seo-checker/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "seo-geo/tune/on-page-seo-checker/SKILL.md": "0ec9eb013e2eb8d208d1e4c36fae6fe8e1803bc70cd31e279ed880ddb8562b08"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "0fad5b544ffca5d20ca99812928cfa64f11b37490343b9065438550f4cd5ae06"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/on-page-seo-review/SKILL.md",
+          "sha256": "0fad5b544ffca5d20ca99812928cfa64f11b37490343b9065438550f4cd5ae06"
+        }
+      ]
+    },
+    {
+      "slug": "search-and-sharing-metadata",
+      "name": "Search and Sharing Metadata",
+      "description": "Draft accurate page titles, descriptions, sharing tags, and structured data from the page's real content.",
+      "category": "SEO, websites and content",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "seo-geo/implement/serp-markup-builder/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "seo-geo/implement/serp-markup-builder/SKILL.md": "0e71984c513b6a530af10d49cbd23babcd00ef6c05d097bba38ee8e7391dcbc9"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "569917ddc29b93289c54047e4db46f0c3e4cb30ca3452afae29a9491f138d0df"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/search-and-sharing-metadata/SKILL.md",
+          "sha256": "569917ddc29b93289c54047e4db46f0c3e4cb30ca3452afae29a9491f138d0df"
+        }
+      ]
+    },
+    {
+      "slug": "content-writer-and-refresher",
+      "name": "Content Writer and Refresher",
+      "description": "Write useful evidence-backed content or improve an existing page without inventing claims or disguising cosmetic edits as a refresh.",
+      "category": "SEO, websites and content",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "seo-geo/implement/content-writer/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "seo-geo/implement/content-writer/SKILL.md": "cf0138f710988b2cb698d3be52ee92119f69222710dc7753a843ecfb9b463f80"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "c8e8ddff20d32edc12bef4188fd61f6dd7d6aa025789fc317fb96cf75f6c8ec0"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/content-writer-and-refresher/SKILL.md",
+          "sha256": "c8e8ddff20d32edc12bef4188fd61f6dd7d6aa025789fc317fb96cf75f6c8ec0"
+        }
+      ]
+    },
+    {
+      "slug": "technical-seo-review",
+      "name": "Technical SEO Review",
+      "description": "Identify crawl, indexing, rendering, mobile, and performance problems from actual site observations and measurements.",
+      "category": "SEO, websites and content",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "seo-geo/tune/technical-seo-checker/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "seo-geo/tune/technical-seo-checker/SKILL.md": "644b100eb3f0d0c7858342873c792f4b3f01db5e80bc05e50ed97ac0c9c030ce"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "05c887608c7e2e4cb0168d1565e8d26101d41d722f64bb4c8f1d53d7d2dfdc9c"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/technical-seo-review/SKILL.md",
+          "sha256": "05c887608c7e2e4cb0168d1565e8d26101d41d722f64bb4c8f1d53d7d2dfdc9c"
+        }
+      ]
+    },
+    {
+      "slug": "site-structure-and-internal-links",
+      "name": "Site Structure and Internal Links",
+      "description": "Help visitors and search systems reach important content with a coherent hierarchy and relevant internal links.",
+      "category": "SEO, websites and content",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "seo-geo/tune/site-structure-optimizer/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "seo-geo/tune/site-structure-optimizer/SKILL.md": "391ad255c156c311094548b44a969ed1cce81d29cf4077f55aa2831495b99c50"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "12b9f82be7157cc95157d13acf71c65e248a8b3b3266495df29bca65c74d38c5"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/site-structure-and-internal-links/SKILL.md",
+          "sha256": "12b9f82be7157cc95157d13acf71c65e248a8b3b3266495df29bca65c74d38c5"
+        }
+      ]
+    },
+    {
+      "slug": "ai-search-content-optimization",
+      "name": "AI Search Content Optimization",
+      "description": "Make useful content easier to understand and cite with clear answers, accurate supporting evidence, and stable attribution.",
+      "category": "SEO, websites and content",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "seo-geo/implement/geo-content-optimizer/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "seo-geo/implement/geo-content-optimizer/SKILL.md": "3d5e0a6d08593ee601999572e5adcc3e421c501764da3974bbe0e564255f1162"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "8abae3eeb329f4e1a8cb5bce2b5e2856945abdf03063ae5e355ca18a7fa9f438"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/ai-search-content-optimization/SKILL.md",
+          "sha256": "8abae3eeb329f4e1a8cb5bce2b5e2856945abdf03063ae5e355ca18a7fa9f438"
+        }
+      ]
+    },
+    {
+      "slug": "content-quality-review",
+      "name": "Content Quality Review",
+      "description": "Review usefulness, factual support, consistency, freshness, and disclosures before content is published or reused.",
+      "category": "SEO, websites and content",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "seo-geo/tune/content-quality-auditor/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "seo-geo/tune/content-quality-auditor/SKILL.md": "e27be2557045da655193af0bc15d533aab40c2cfbdcd0972b2dce69545d4eb85"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "afa13022af3d301197df8c92eb9e49784546fcadcd95c0be577cd55b0d9ca7cd"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/content-quality-review/SKILL.md",
+          "sha256": "afa13022af3d301197df8c92eb9e49784546fcadcd95c0be577cd55b0d9ca7cd"
+        }
+      ]
+    },
+    {
+      "slug": "social-calendar-builder",
+      "name": "Social Calendar Builder",
+      "description": "Turn useful content ideas into a manageable channel-specific plan with owners, capacity, and clear draft status.",
+      "category": "Social media and video",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "social/craft/social-calendar-builder/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "social/craft/social-calendar-builder/SKILL.md": "970c26d7b3fd1bfe899f10baeedeafad8b7effc364e5553bbce7527fe5eb0d87"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "8f1aaaca2cf9782acd5fd35d811dfcee4d48aee2c4046dc74c14673b3b1e7757"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/social-calendar-builder/SKILL.md",
+          "sha256": "8f1aaaca2cf9782acd5fd35d811dfcee4d48aee2c4046dc74c14673b3b1e7757"
+        }
+      ]
+    },
+    {
+      "slug": "social-creative-builder",
+      "name": "Social Creative Builder",
+      "description": "Adapt an evidence-backed idea into useful posts, captions, threads, or carousel specifications for selected channels.",
+      "category": "Social media and video",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "social/craft/social-creative-builder/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "social/craft/social-creative-builder/SKILL.md": "44cb27a8aec2cc07f7a4fedf737d78059ab05884f9295c06e22040135c8ca3d9"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "540a8afb8fbb287ec53f889d74c5d6fdc6c047a74c3f34e4157e009d9f912c9f"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/social-creative-builder/SKILL.md",
+          "sha256": "540a8afb8fbb287ec53f889d74c5d6fdc6c047a74c3f34e4157e009d9f912c9f"
+        }
+      ]
+    },
+    {
+      "slug": "short-video-scripter",
+      "name": "Short Video Scripter",
+      "description": "Turn a useful idea into a shootable short-video script with timed beats, spoken lines, on-screen text, and a clear next action.",
+      "category": "Social media and video",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "social/craft/short-video-scripter/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "social/craft/short-video-scripter/SKILL.md": "00e1b9aa913c1e4de55ec56bcee2e5fb51ce9e93fce2152a8f18ecbf4a4c828e"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "b1c8c661bf8b7eddf1281e0406331274b48d6386d62af4e6aad82eeda6a15ca4"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/short-video-scripter/SKILL.md",
+          "sha256": "b1c8c661bf8b7eddf1281e0406331274b48d6386d62af4e6aad82eeda6a15ca4"
+        }
+      ]
+    },
+    {
+      "slug": "social-performance-review",
+      "name": "Social Performance Review",
+      "description": "Compare social results on consistent definitions and periods to identify supported lessons and bounded next experiments.",
+      "category": "Social media and video",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "social/observe/social-measurement-loop/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "social/observe/social-measurement-loop/SKILL.md": "04411b23f77315bb87e7b01fc02756bd7d822714cad40048dc934cfb396f2e00"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "17792d4ef71f7ad32b4e8ad0a83ae066e3d4acda70cddd1b10bed155897b6f45"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/social-performance-review/SKILL.md",
+          "sha256": "17792d4ef71f7ad32b4e8ad0a83ae066e3d4acda70cddd1b10bed155897b6f45"
+        }
+      ]
+    },
+    {
+      "slug": "comment-and-inbox-triage",
+      "name": "Comment and Inbox Triage",
+      "description": "Prioritize permitted comments and messages, draft useful replies, and identify cases that need a human owner.",
+      "category": "Social media and video",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "social/host/engagement-inbox-manager/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "social/host/engagement-inbox-manager/SKILL.md": "b990a916e21a1f95b7e288f85ec7c06e64d0eb14dcf424e94ef58a3af9ce9bc2"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "a66bbc74f36154751f3917216620547beda8b8fc78563cf30b665d65f482beef"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/comment-and-inbox-triage/SKILL.md",
+          "sha256": "a66bbc74f36154751f3917216620547beda8b8fc78563cf30b665d65f482beef"
+        }
+      ]
+    },
+    {
+      "slug": "subject-line-lab",
+      "name": "Subject Line Lab",
+      "description": "Create and compare honest email subject and preheader variants that are useful to test and understandable in an inbox.",
+      "category": "Email marketing",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "email/engage/subject-line-lab/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "email/engage/subject-line-lab/SKILL.md": "6b7431ad52a51543abc5d67bb1c822495243cf17d255a036d729b9a1a2af3a5d"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "7a41f37d64eb4aee4faeed48fee6f77790949c35a200c0ac69e5e44aded61275"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/subject-line-lab/SKILL.md",
+          "sha256": "7a41f37d64eb4aee4faeed48fee6f77790949c35a200c0ac69e5e44aded61275"
+        }
+      ]
+    },
+    {
+      "slug": "email-creative-builder",
+      "name": "Email Creative Builder",
+      "description": "Draft an email with a clear purpose, accurate claims, a matching destination, and a readable plain-text alternative.",
+      "category": "Email marketing",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "email/engage/email-creative-builder/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "email/engage/email-creative-builder/SKILL.md": "b011527e8b0910d225239bd446e645aa63a870400815898b159fa04b990f41fd"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "96dc5ee172a0b422f086167fbe411590e0277bcbf6186f068aba6e17a00c3d0b"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/email-creative-builder/SKILL.md",
+          "sha256": "96dc5ee172a0b422f086167fbe411590e0277bcbf6186f068aba6e17a00c3d0b"
+        }
+      ]
+    },
+    {
+      "slug": "email-sequence-designer",
+      "name": "Email Sequence Designer",
+      "description": "Design a customer email journey with meaningful triggers, timing, branches, exits, preferences, and frequency controls.",
+      "category": "Email marketing",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "email/nurture/email-sequence-designer/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "email/nurture/email-sequence-designer/SKILL.md": "c6461154d48b4af76ae0013513c0d282c7b3e462404aeb78974b7dd86dedab2c"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "26137446755d0b9028b8b2b41391062d58d57637071c7b6873a3ae9f09103b1f"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/email-sequence-designer/SKILL.md",
+          "sha256": "26137446755d0b9028b8b2b41391062d58d57637071c7b6873a3ae9f09103b1f"
+        }
+      ]
+    },
+    {
+      "slug": "marketing-campaign-planner",
+      "name": "Marketing Campaign Planner",
+      "description": "Turn a business goal into a coordinated campaign plan with an audience, supported messages, deliverables, budget basis, owners, and measurement.",
+      "category": "Campaigns, advertising and partnerships",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "influencer/target/campaign-planner/SKILL.md",
+          "ad/research/campaign-architect/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "influencer/target/campaign-planner/SKILL.md": "a09420e865df9e466adfc41c5e41e17d85a0d929fac65c265db75152dbec7fba",
+          "ad/research/campaign-architect/SKILL.md": "00701af99252c60aa8af082ebb4000e0d08d3f3e0d14847efc037bdbf4d78469"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "81b4404789bccbaf1bb5ecc49651406563613cc99c15117115366a0b546aa70d"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/marketing-campaign-planner/SKILL.md",
+          "sha256": "81b4404789bccbaf1bb5ecc49651406563613cc99c15117115366a0b546aa70d"
+        }
+      ]
+    },
+    {
+      "slug": "ad-creative-builder",
+      "name": "Ad Creative Builder",
+      "description": "Create distinct advertising angles and format-specific variants that accurately match the destination offer.",
+      "category": "Campaigns, advertising and partnerships",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "ad/orchestrate/ad-creative-builder/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "ad/orchestrate/ad-creative-builder/SKILL.md": "63b880cede60127c0d385f8e6045ae8cc3d5e502e6b756e68c72e403b4053f02"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "7098672edfdbcd3d3f7aee6f6b3572944f854d354ae3f9b07c9e9387731a0965"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/ad-creative-builder/SKILL.md",
+          "sha256": "7098672edfdbcd3d3f7aee6f6b3572944f854d354ae3f9b07c9e9387731a0965"
+        }
+      ]
+    },
+    {
+      "slug": "landing-experience-review",
+      "name": "Landing Experience Review",
+      "description": "Find gaps between a campaign's promise and the page a visitor reaches, using real page and preview evidence.",
+      "category": "Campaigns, advertising and partnerships",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "ad/orchestrate/landing-experience-checker/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "ad/orchestrate/landing-experience-checker/SKILL.md": "a8c7605868c58763622bdee078d74819a7c45bf77ee3075163eb6a8d1ed7d6ab"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "5fa82cb4b60f49b39520a5ee14a09d0f69ed57b4c1e52462147fa60d2424f927"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/landing-experience-review/SKILL.md",
+          "sha256": "5fa82cb4b60f49b39520a5ee14a09d0f69ed57b4c1e52462147fa60d2424f927"
+        }
+      ]
+    },
+    {
+      "slug": "ab-test-designer",
+      "name": "A/B Test Designer",
+      "description": "Design or read an experiment with a falsifiable hypothesis, compatible samples, declared metrics, and a separate rollout decision.",
+      "category": "Campaigns, advertising and partnerships",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "ad/orchestrate/ad-test-designer/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "ad/orchestrate/ad-test-designer/SKILL.md": "7160f23c77de20dfa546d2ca1fc45488f36af686eb9c9758fc72f597c4d84104"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "998490eb84883cb13be3ac3e2dbb8eeb420c034a6c80e040fb1785755038c942"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/ab-test-designer/SKILL.md",
+          "sha256": "998490eb84883cb13be3ac3e2dbb8eeb420c034a6c80e040fb1785755038c942"
+        }
+      ]
+    },
+    {
+      "slug": "creator-brief-generator",
+      "name": "Creator Brief Generator",
+      "description": "Prepare a clear collaboration brief with deliverables, supported messages, creative freedom, dates, disclosures, rights, and supplied compensation terms.",
+      "category": "Campaigns, advertising and partnerships",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "influencer/target/brief-generator/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "influencer/target/brief-generator/SKILL.md": "3deb5c0ab802ee7c3be9fcb5b917f9b896e8ee37705828504bddf3cf1370f512"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "ef262295d3d1082a77dfe7542e89737ddd0a8b9e0f5c4a1f97e147e06d04b911"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/creator-brief-generator/SKILL.md",
+          "sha256": "ef262295d3d1082a77dfe7542e89737ddd0a8b9e0f5c4a1f97e147e06d04b911"
+        }
+      ]
+    },
+    {
+      "slug": "campaign-roi-calculator",
+      "name": "Campaign ROI Calculator",
+      "description": "Calculate campaign return and efficiency on an explicit cost, attribution, currency, and time-window basis.",
+      "category": "Reporting and launches",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "influencer/report/roi-calculator/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "influencer/report/roi-calculator/SKILL.md": "06cc98245b04e2cdb1a400d5acc171f10aa20f082da63969030127c905e6082a"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "fd5f5ce366f95571ea1f6c953fead612523e19f027ae12bc6ffe98a2e781c137"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/campaign-roi-calculator/SKILL.md",
+          "sha256": "fd5f5ce366f95571ea1f6c953fead612523e19f027ae12bc6ffe98a2e781c137"
+        }
+      ]
+    },
+    {
+      "slug": "stakeholder-results-report",
+      "name": "Stakeholder Results Report",
+      "description": "Turn verified campaign results into a report that helps a specific audience understand outcomes, uncertainty, and next decisions.",
+      "category": "Reporting and launches",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "influencer/report/report-generator/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "influencer/report/report-generator/SKILL.md": "1c33850438c2f3d5b9ea9b2517dcfffb3a63252cf66f9038f733250d9f41e3eb"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "d31b054418b0cfaab27cc2b7ba0c209ca944632c1062a40a0b528ea3b5f6bcad"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/stakeholder-results-report/SKILL.md",
+          "sha256": "d31b054418b0cfaab27cc2b7ba0c209ca944632c1062a40a0b528ea3b5f6bcad"
+        }
+      ]
+    },
+    {
+      "slug": "launch-scope-planner",
+      "name": "Launch Scope Planner",
+      "description": "Match a launch's channel and asset effort to its real audience impact, novelty, revenue link, and team capacity.",
+      "category": "Reporting and launches",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "launch/research/launch-tier-planner/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "launch/research/launch-tier-planner/SKILL.md": "cbe091987a319bcc2155b0c27939c56c322d71081a1b127c7848054e11d6a1d2"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "454f37a97de201941526b0a93e6b0e55cbc27a1116e581ebcbdbe4c6c9d0f2a9"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/launch-scope-planner/SKILL.md",
+          "sha256": "454f37a97de201941526b0a93e6b0e55cbc27a1116e581ebcbdbe4c6c9d0f2a9"
+        }
+      ]
+    },
+    {
+      "slug": "launch-feedback-synthesizer",
+      "name": "Launch Feedback Synthesizer",
+      "description": "Turn permitted feedback into evidence-backed themes, preserving frequency, severity, representative quotes, and collection gaps.",
+      "category": "Reporting and launches",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "launch/prove/launch-feedback-synthesizer/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "launch/prove/launch-feedback-synthesizer/SKILL.md": "98154f1f859517bd7c339b53a77baf7228a78047a8d91e43ffc488114338b6d1"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "c7315a7ae2ba88be88d0664689ffdb9b2b063293116ebb0e3729a70d662e155a"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/launch-feedback-synthesizer/SKILL.md",
+          "sha256": "c7315a7ae2ba88be88d0664689ffdb9b2b063293116ebb0e3729a70d662e155a"
+        }
+      ]
+    },
+    {
+      "slug": "launch-retrospective",
+      "name": "Launch Retrospective",
+      "description": "Compare a launch's actual execution and outcomes with its original plan to identify supported lessons and next changes.",
+      "category": "Reporting and launches",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "commit": "47b6515023ec6c2494e1b723d0b78a6c1e0ec222",
+        "paths": [
+          "launch/prove/launch-retro-analyzer/SKILL.md"
+        ],
+        "authors": [
+          "Aaron He Zhu"
+        ],
+        "license": "Apache-2.0",
+        "notices": [
+          "licenses/aaron-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Rewritten as a self-contained Nessie workflow. Removed required foreign registries, memory mutation, scorer/script execution and chained instruction dependencies. Retained task-specific evidence, uncertainty, permission and missing-runtime limits. Broadened inputs to supplied material and already authorized tools.",
+        "sourceHashes": {
+          "launch/prove/launch-retro-analyzer/SKILL.md": "a5e3b411893af555a2454c29caf2b12fef9a6abd5f8de56ead0e93555f4070ba"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "48a528f83134981686822261417ee865f3ecf01d6b15fb4a113caac925d8636b"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/launch-retrospective/SKILL.md",
+          "sha256": "48a528f83134981686822261417ee865f3ecf01d6b15fb4a113caac925d8636b"
+        }
+      ]
+    },
+    {
+      "slug": "diagnosing-bugs",
+      "name": "Diagnosing Bugs",
+      "description": "Find a root cause with a repeatable reproduction, falsifiable hypotheses, and a check that proves the fix addresses the reported symptom.",
+      "category": "Engineering",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/engineering/diagnosing-bugs/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/engineering/diagnosing-bugs/SKILL.md": "849198df88cdb65fd0d97236604c1fca7ff2f22d2f705f9724a800d0266b118d"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "5f757adf077190e2fa48220300e1291a35020493a65d6be6ff7650fa806d02a0"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/diagnosing-bugs/SKILL.md",
+          "sha256": "5f757adf077190e2fa48220300e1291a35020493a65d6be6ff7650fa806d02a0"
+        }
+      ]
+    },
+    {
+      "slug": "test-first-development",
+      "name": "Test-First Development",
+      "description": "Implement one observable behavior at a time with a test that fails for the right reason before the code makes it pass.",
+      "category": "Engineering",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/engineering/tdd/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/engineering/tdd/SKILL.md": "5505d25bbaa8fc14a79e4d20163936958992a2995b7f1dd1d6197edc9ed722e0"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "a2c99fe5cddbe082f2aa0cc943472bff76144347eb32534f785cabe83d77afd6"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/test-first-development/SKILL.md",
+          "sha256": "a2c99fe5cddbe082f2aa0cc943472bff76144347eb32534f785cabe83d77afd6"
+        }
+      ]
+    },
+    {
+      "slug": "codebase-design",
+      "name": "Codebase Design",
+      "description": "Design modules that hide useful complexity behind a small, clear interface and keep related behavior and verification together.",
+      "category": "Engineering",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/engineering/codebase-design/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/engineering/codebase-design/SKILL.md": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "e606deb4cf78a4f4a1aacd4bd49fa263fef1a2f1b38a1dd346e7c08228bb4ca5"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/codebase-design/SKILL.md",
+          "sha256": "e606deb4cf78a4f4a1aacd4bd49fa263fef1a2f1b38a1dd346e7c08228bb4ca5"
+        }
+      ]
+    },
+    {
+      "slug": "code-review",
+      "name": "Code Review",
+      "description": "Review a defined change separately for repository standards and fulfillment of the requested behavior.",
+      "category": "Engineering",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/engineering/code-review/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/engineering/code-review/SKILL.md": "09eb147f793e4647949edd32dbad278f0554dfb56e0d46b699cd4c2c55bf0357"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "9657c14089b52bea8a012bc8c8bc3f39fa8cefa951fcbd9aa16a6fe64f46494e"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/code-review/SKILL.md",
+          "sha256": "9657c14089b52bea8a012bc8c8bc3f39fa8cefa951fcbd9aa16a6fe64f46494e"
+        }
+      ]
+    },
+    {
+      "slug": "how-explain-a-system",
+      "name": "How: Explain a System",
+      "description": "Explain a system's ownership and runtime flow from actual source and observed behavior at the level the reader needs.",
+      "category": "Engineering",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/cursor/plugins",
+        "commit": "dbf49813a39c1a5389c5e28cb8e4c1c2379e2454",
+        "paths": [
+          "pstack/skills/how/SKILL.md"
+        ],
+        "authors": [
+          "Lauren Tan"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/pstack-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "pstack/skills/how/SKILL.md": "47cfe3e6fe55c49c3bdf8ad1b645dcd5fece8f0c36fd22d2e7221f9faa71f648"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "4d00d3521e1e68618b7f0149a7361d88f5d6ac56a8e897ce08ebb431d2808e89"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/how-explain-a-system/SKILL.md",
+          "sha256": "4d00d3521e1e68618b7f0149a7361d88f5d6ac56a8e897ce08ebb431d2808e89"
+        }
+      ]
+    },
+    {
+      "slug": "benchmark-checklist",
+      "name": "Benchmark Checklist",
+      "description": "Check whether a measured performance result is correct, repeatable, fairly configured, and relevant to the user.",
+      "category": "Engineering",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/cursor/plugins",
+        "commit": "dbf49813a39c1a5389c5e28cb8e4c1c2379e2454",
+        "paths": [
+          "pstack/skills/benchmark-checklist/SKILL.md"
+        ],
+        "authors": [
+          "Lauren Tan"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/pstack-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "pstack/skills/benchmark-checklist/SKILL.md": "ba109e96c8f6c1c391baccf19e5d11e14370df7b3f2605e1572cd565a6c0fca0"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "7d3512e2654631a245727a7a9189505ffb1984166b1bd4238daa5df011ce6851"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/benchmark-checklist/SKILL.md",
+          "sha256": "7d3512e2654631a245727a7a9189505ffb1984166b1bd4238daa5df011ce6851"
+        }
+      ]
+    },
+    {
+      "slug": "typescript-best-practices",
+      "name": "TypeScript Best Practices",
+      "description": "Use types and boundary validation to express real domain states while keeping the code simple and testable.",
+      "category": "Engineering",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/cursor/plugins",
+        "commit": "dbf49813a39c1a5389c5e28cb8e4c1c2379e2454",
+        "paths": [
+          "pstack/skills/typescript-best-practices/SKILL.md",
+          "pstack/skills/typescript-best-practices/references/patterns.md"
+        ],
+        "authors": [
+          "Lauren Tan"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/pstack-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "pstack/skills/typescript-best-practices/SKILL.md": "28f9e61710e205f6f3c5476f333483cff0e988f6a5b639e2faad536344b40c5e",
+          "pstack/skills/typescript-best-practices/references/patterns.md": "faa1362055374452efccac1b629677c61acfb0bcc6c4e3311836b5715638ee18"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "c2e05a7bed885bd2a1c5e98df6b9201b76b95fa43d2628df0a2016320156a67b"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/typescript-best-practices/SKILL.md",
+          "sha256": "c2e05a7bed885bd2a1c5e98df6b9201b76b95fa43d2628df0a2016320156a67b"
+        }
+      ]
+    },
+    {
+      "slug": "pull-request-description",
+      "name": "Pull Request Description",
+      "description": "Write a reviewable pull request description that explains the problem, resulting behavior, evidence, and material risks.",
+      "category": "Engineering",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/engineering/pr/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock",
+          "Dex Horthy (credited by upstream; Humanlayer)"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/engineering/pr/SKILL.md": "ab63f1cf78647389edcd386c9427c5dfca27ed2836930c24773ffee834c19bcd"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "3802fb03c2211b49330877ec1efa81171df45fb822667917a4720c79737570e4"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/pull-request-description/SKILL.md",
+          "sha256": "3802fb03c2211b49330877ec1efa81171df45fb822667917a4720c79737570e4"
+        }
+      ]
+    },
+    {
+      "slug": "blast-radius",
+      "name": "Blast Radius",
+      "description": "Find what a change could break beyond its diff and verify the critical facts on which its safety depends.",
+      "category": "Engineering",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/cursor/plugins",
+        "commit": "dbf49813a39c1a5389c5e28cb8e4c1c2379e2454",
+        "paths": [
+          "pstack/skills/blast-radius/SKILL.md"
+        ],
+        "authors": [
+          "Lauren Tan"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/pstack-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "pstack/skills/blast-radius/SKILL.md": "2e10745b97f5862323dcda3b29ca60d56b5c3c98e37020085d26b48efbe0a436"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "ebea9d8a5d72441c3f598791366b07862d6dee364f8f1e76af00b5d32c908774"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/blast-radius/SKILL.md",
+          "sha256": "ebea9d8a5d72441c3f598791366b07862d6dee364f8f1e76af00b5d32c908774"
+        }
+      ]
+    },
+    {
+      "slug": "improve-codebase-architecture",
+      "name": "Improve Codebase Architecture",
+      "description": "Find architectural changes that reduce real maintenance friction and improve the ability to verify important behavior.",
+      "category": "Engineering",
+      "origin": "community",
+      "source": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "49dd158d1076134a641b33efb035946536778336",
+        "paths": [
+          "skills/engineering/improve-codebase-architecture/SKILL.md"
+        ],
+        "authors": [
+          "Matt Pocock"
+        ],
+        "license": "MIT",
+        "notices": [
+          "licenses/matt-LICENSE.txt",
+          "NOTICE.md"
+        ],
+        "changes": "Adapted into a self-contained Nessie workflow. Removed host-specific Skill calls, mandatory delegation/model selection, setup scripts and automatic artifact or tracker writes. Preserved task-specific reasoning checks, observable evidence and applicable privacy/action boundaries.",
+        "sourceHashes": {
+          "skills/engineering/improve-codebase-architecture/SKILL.md": "552240a5ab5cec6b67c15dd1ad6e9f6962b1bca6ce870059a8c2713760c20392"
+        },
+        "adaptedHashes": {
+          "SKILL.md": "71521addcef001d9ee78859baf6932bd1a8d33a846bbf11e96bf9c97a4d4f632"
+        }
+      },
+      "documents": [
+        {
+          "path": "SKILL.md",
+          "file": "skills/improve-codebase-architecture/SKILL.md",
+          "sha256": "71521addcef001d9ee78859baf6932bd1a8d33a846bbf11e96bf9c97a4d4f632"
+        }
+      ]
+    }
+  ],
+  "apps": []
+}

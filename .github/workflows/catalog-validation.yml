@@ -1,0 +1,41 @@
+name: Catalog validation
+
+on:
+  push:
+    branches:
+      - main
+      - codex/initial-catalogue-20261013
+      - codex/candidate-corpus-20261013
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Catalog validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Read candidate data
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          path: candidate
+          persist-credentials: false
+      - name: Read trusted validation code
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.event.pull_request.base.sha || github.sha }}
+          path: trusted
+          persist-credentials: false
+      - name: Use Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - name: Validate candidate as data
+        run: node trusted/scripts/validate.mjs candidate
+      - name: Test trusted validator
+        run: node --test trusted/test/validate.test.mjs

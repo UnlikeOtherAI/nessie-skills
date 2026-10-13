@@ -1,0 +1,685 @@
+{
+  "schemaVersion": 1,
+  "default": {
+    "license": "MIT",
+    "authors": [
+      "UnlikeOtherAI"
+    ],
+    "notice": "LICENSE"
+  },
+  "skills": [
+    {
+      "slug": "unslop",
+      "license": "MIT",
+      "authors": [
+        "Lauren Tan"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/pstack-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "wait-what",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "grill-with-docs",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "show-me-your-work",
+      "license": "MIT",
+      "authors": [
+        "Lauren Tan"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/pstack-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "wizard",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "research",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "handoff",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "discovery-questionnaire",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "clear-documentation",
+      "license": "MIT",
+      "authors": [
+        "Lauren Tan"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/pstack-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "domain-modeling",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "wayfinder",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "arena",
+      "license": "MIT",
+      "authors": [
+        "Lauren Tan"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/pstack-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "prototype",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "writing-for-agents",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "product-positioning",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "messaging-framework",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "brand-voice-and-naming",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "audience-research",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "keyword-and-search-results-research",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "content-gap-analysis",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "competitor-analysis",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "on-page-seo-review",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "search-and-sharing-metadata",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "content-writer-and-refresher",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "technical-seo-review",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "site-structure-and-internal-links",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "ai-search-content-optimization",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "content-quality-review",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "social-calendar-builder",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "social-creative-builder",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "short-video-scripter",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "social-performance-review",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "comment-and-inbox-triage",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "subject-line-lab",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "email-creative-builder",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "email-sequence-designer",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "marketing-campaign-planner",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "ad-creative-builder",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "landing-experience-review",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "ab-test-designer",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "creator-brief-generator",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "campaign-roi-calculator",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "stakeholder-results-report",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "launch-scope-planner",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "launch-feedback-synthesizer",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "launch-retrospective",
+      "license": "Apache-2.0",
+      "authors": [
+        "Aaron He Zhu"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/aaron-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "diagnosing-bugs",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "test-first-development",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "codebase-design",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "code-review",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "how-explain-a-system",
+      "license": "MIT",
+      "authors": [
+        "Lauren Tan"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/pstack-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "benchmark-checklist",
+      "license": "MIT",
+      "authors": [
+        "Lauren Tan"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/pstack-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "typescript-best-practices",
+      "license": "MIT",
+      "authors": [
+        "Lauren Tan"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/pstack-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "pull-request-description",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock",
+        "Dex Horthy (credited by upstream; Humanlayer)"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "blast-radius",
+      "license": "MIT",
+      "authors": [
+        "Lauren Tan"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/pstack-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "slug": "improve-codebase-architecture",
+      "license": "MIT",
+      "authors": [
+        "Matt Pocock"
+      ],
+      "adaptedBy": "UnlikeOtherAI",
+      "notices": [
+        "licenses/matt-LICENSE.txt",
+        "NOTICE.md"
+      ]
+    }
+  ]
+}
